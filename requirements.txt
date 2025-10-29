@@ -1,0 +1,22 @@
+python== 3.10.6(venv.)
+dlib==20.0.0
+numpy==2.2.6
+opencv-python==4.12.0.88
+pip==25.3
+setuptools==63.2.0
+
+File tải kèm để hỗ trợ tối ưu:
+1. shape_predictor_5_face_landmarks.dat (dùng để căn chỉnh khuôn mặt trước khi encode)
+https://github.com/davisking/dlib-models/raw/master/shape_predictor_5_face_landmarks.dat.bz2
+hoặc nếu link trên chậm:
+https://github.com/ageitgey/face_recognition_models/raw/master/face_recognition_models/models/shape_predictor_5_face_landmarks.dat
+
+2. dlib_face_recognition_resnet_model_v1.dat(Mã hóa khuôn mặt thành vector)
+https://github.com/davisking/dlib-models/raw/master/dlib_face_recognition_resnet_model_v1.dat.bz2
+hoặc:
+https://github.com/ageitgey/face_recognition_models/raw/master/face_recognition_models/models/dlib_face_recognition_resnet_model_v1.dat
+
+3. mmod_human_face_detector.dat(Mô hình dùng để phát hiện khuôn mặt (face detection) chính xác hơn HOG (đặc biệt cho góc nghiêng)
+https://github.com/davisking/dlib-models/raw/master/mmod_human_face_detector.dat.bz2
+
+
